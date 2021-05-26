@@ -105,7 +105,7 @@ nav ul li a:hover {
   font-size: 28;
   text-transform: uppercase;
   cursor: pointer;
-  margin-left: 125px;
+  margin-right: 90px;
 }
 
 .button:hover {
@@ -149,11 +149,16 @@ nav ul li a:hover {
   max-width: 1190px;
 }
 
-.skills-item {
-  margin-top: 50px;
+.my-skills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.left_part {
-  padding: 500px 150px 50px 10px;
+
+.right-part {
+  width: 555px;
+  height: 450px;
+  margin: 101px 344px;
 }
 
 .right-img {
@@ -181,6 +186,24 @@ nav ul li a:hover {
 }
 
 
+.section-top {
+  display: flex;
+
+  justify-content: space-between;
+  max-width: 100%;
+  margin top: 0;
+  padding: 0;
+	
+}
+
+.bottom-put {
+  display: flex;
+  
+  justify-content: space-between;
+  max-width: 100%;
+
+}
+
 
 .micro {
   display: flex;
@@ -198,7 +221,7 @@ nav ul li a:hover {
 .button:hover {
   background-color: #253b57;
 }
-/* здесь посмотри внимательнее? иначе отступ большой везде */
+
 .section-content {
   padding: 100px 100px;
 
